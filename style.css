@@ -1,0 +1,377 @@
+body{
+	font-family: Arial, sans-serif;
+}
+p{letter-spacing: -1px}
+
+nav{
+	width: 100%;
+	height: 61px;
+	background: #344051;
+}
+
+.logo{
+	color: #fff;
+	font-size: 28px;
+	line-height: 61px;
+	padding-left:388px;
+	float: left;
+}
+
+.menu{
+	float: left;
+	padding-left: 432px;
+}
+.menu li{
+	float: left;
+	line-height: 61px;
+	color: #fff;
+	margin-right: 40px;
+	font-size:16px;
+	text-transform: uppercase;
+}
+.main{
+	width:100%;
+	height:calc(100% - 61px);
+	background:url(../img/boy.png) 90% 100%/auto 85% no-repeat,url(../img/bg.jpg) center/cover no-repeat;
+}
+.title_conteiner{
+	float: left;
+	margin: 432px 0px 0px 404px;
+	color: #2c384a;
+	text-align: center;
+}
+.title_conteiner h1{
+	font-size: 60px;
+	font-weight:bold;
+	letter-spacing: -3px;
+}
+.title_conteiner h4{
+	margin-top:40px;
+	font-size: 22px;
+	color: #79818d;
+}
+.title_conteiner input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background:none;
+	border-radius: 5px;
+	color: #6d7682
+	font-size: 13px;
+	padding:0px 16px;
+	margin: 58px 14px 0px 14px;
+}
+.main_title2{
+	width: 100%;
+	height: 714px;
+	background: #fcfdfd;
+}
+.text2{
+	text-align: center;
+}
+.text2 h4{
+	padding-top: 108px ;
+	color: #263244;
+	font-size: 35px;
+	font-weight:bold;
+	text-transform: uppercase;
+	letter-spacing: -3px;
+	text-decoration: underline;
+	text-decoration-color: #d17700;
+}
+.avatar{
+	margin:62px; 
+	height: 200px;
+	padding:31px;
+}
+.text2 p{
+	color: #3f495a;
+	font-size: 16px;
+	font-weight: 600;
+}
+.download{
+	margin:37px;
+	border:3px solid;
+	border-radius: 5px;
+	padding:13px ;
+	color:#6f707e
+}
+.download img{
+	height:25px
+}
+.text2 h3{
+	padding-bottom:20px;
+	font-size: 16px;
+	color: #9a9ea5;
+}
+.str3{
+	background:url(../img/bg2.jpg) no-repeat ;
+	width:100%;
+	height:520px;
+}
+.title3 h2{
+	text-align: center;
+	padding-top: 107px ;
+	color: #263244;
+	font-size: 35px;
+	font-weight:bold;
+	text-transform: uppercase;
+	letter-spacing:-3px;
+	text-decoration: underline;
+	text-decoration-color: #d17700;
+}
+.str3 h4{
+	font-size:16px;
+	color: #cf7600;
+	font-weight:bold;
+	padding-top:39px;
+	text-align: center;
+}
+.str3 img{
+	padding-left:78px;
+}
+.str3 p{
+	padding-top:20px; 
+	font-size: 14px;
+	letter-spacing:0px;
+	color: #515a69;
+	text-align: center;
+}
+.item_skills1{
+	border: 0px solid #000;
+	max-width: 213px;
+	height:158px;
+	margin:100px 0px 0px 417px
+}
+
+.item_skills2{
+	border: 0px solid #000;
+	max-width: 213px;
+	height:158px;
+	margin:-158px 0px 0px 712px
+}
+.item_skills3{
+	border: 0px solid #000;
+	max-width: 213px;
+	height:158px;
+	margin:-158px 0px 0px 1011px;
+}
+.item_skills4{
+	border: 0px solid #000;
+	max-width: 213px;
+	height:158px;
+	margin:-158px 0px 0px 1306px;
+}
+.str4{
+	width: 100%;
+	height: 2000px;
+	background: #fff;
+}
+.title4 h2{
+	text-align: center;
+	padding-top: 110px ;
+	color: #384354;
+	font-size: 35px;
+	font-weight:bold;
+	text-transform: uppercase;
+	letter-spacing:-3px;
+	text-decoration: underline;
+	text-decoration-color: #d17700;
+}
+.title4 p{
+	color:#626976;
+	font-size: 16px;
+	margin-top:70px;
+	text-align: center;
+}
+.str4 img{
+	width: 60%;
+	height:60%;
+	margin-left:400px;  
+}
+.str4 h3{
+	color: #384354;
+	font-size:17px;
+	font-weight:bold;
+	text-transform: uppercase;
+	letter-spacing:-1px;
+}
+.str4 p{
+	padding-top:11px; 
+	font-size:12px;
+	letter-spacing:0px;
+	color: #3f495a;
+	font-weight: 600;
+}
+.client{
+	border: 0px solid #000;
+	width:285px;
+	height:45px;
+	margin-left:388px;
+	margin-top:42px;
+}
+.name_project{
+	border: 0px solid #000;
+	width:850px;
+	max-height:100px;
+	margin:-45px 0px 0px 673px;
+}
+.text5 {
+	padding-top:13px; 
+	font-size:16px;
+	letter-spacing:0px;
+	color: #3f495a;
+	font-weight: 600;
+
+}
+.website{
+	border: 0px solid #000;
+	max-width:285px;
+	max-height:45px;
+	margin:-15px 0px 0px 388px;
+}
+.button2 {
+	margin:23px 0px 0px 388px;
+	height:44px;
+	width:201px;
+	color: #63b5ae;
+	border-radius: 5px;
+	border:1px solid;
+	background:#63b5ae;
+}
+.button2 div{
+	color:#fff;
+	font-size:17px;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding-top:-5px; 
+}
+.title5 h4{
+	color:#1c2534;
+	margin-top:201px;
+	font-size:37px;
+	font-weight:bold;
+	text-align: center;
+	letter-spacing:-1px;
+}
+.title5 p{
+	color:#1c2534;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:-1px;
+	margin:49px 0px 0px 498px;
+}
+.text6 {
+	margin:60px 0px 0px 498px;
+	color:#1c2534;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:-1px;
+}
+.title5 select{
+	margin:22px 0px 0px 498px ;
+	width:891px;
+	height:57px;
+	background: #eeeeee;
+}
+.text7{
+	border-top:2px solid;
+	max-width:891px;
+	max-height: 74px;
+	color: #d1d1d1;
+	margin: 36px 0px 0px 498px
+}
+.text7 h2{
+	padding-top:20px;
+	font-size:15px;
+	letter-spacing:0px;
+	color:#1c2534;
+	font-weight: 600;
+}
+.text7 h5{ 
+	font-size:17px;
+	color:#1c2534;
+	font-weight: 600;
+	margin:-50px 0px 0px 877px;
+}
+.text7 h6{ 
+	font-size:17px;
+	color:#1c2534;
+	font-weight: 600;
+	margin:17px 0px 0px 877px;
+}
+.str5 {
+	background: url(../img/bd3.jpg);
+	height:500px;
+	width: 100%;
+}
+.title6 h2{
+	text-align: center;
+	padding-top: 107px ;
+	color: #263244;
+	font-size: 35px;
+	font-weight:bold;
+	text-transform: uppercase;
+	letter-spacing:-3px;
+	text-decoration: underline;
+	text-decoration-color: #d17700;
+}
+
+.str5 h4{
+	font-size:16px;
+	color: #323e4f;
+	font-weight:bold;
+	margin-top:17px;
+	text-align: center;
+}
+.str5 img{
+	padding-left:78px;
+}
+.str5 p{
+	margin-top:20px;
+	text-align:center; 
+	font-size:35px;
+	color:#323e4f;
+	font-weight:bold;
+}
+.happy_client{
+	border:0px solid #000;
+	max-width:213px;
+	height:160px;
+	margin:100px 0px 0px 417px
+}
+
+.Opening_hours{
+	border:0px solid #000;
+	max-width: 213px;
+	height:160px;
+	margin:-158px 0px 0px 712px
+}
+.end_project{
+	border: 0px solid #000;
+	max-width:213px;
+	height:160px;
+	margin:-158px 0px 0px 1011px;
+}
+.awards{
+	border: 0px solid #000;
+	max-width: 213px;
+	height:160px;
+	margin:-158px 0px 0px 1306px;
+}
+.container {
+	background:#fff; 
+	height:590px;
+	width:100%;
+}
+.container h2{
+	text-align: center;
+	padding-top: 107px ;
+	color: #243042;
+	font-size: 35px;
+	font-weight:bold;
+	text-transform: uppercase;
+	letter-spacing:-3px;
+	text-decoration: underline;
+	text-decoration-color: #d17700;
+	}
