@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Это моя первая страница...">
+	<meta name="author" content="Andrey">
+	<meta name="rorbots"content="index,follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Это моя первая страница...">
+	<title>Андрей Муханов- Веб-разработчик</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+</head>
+<body>
+	<div class="preloader">
+  		<div class="preloader__row">
+    		<div class="preloader__item"></div>
+    		<div class="preloader__item"></div>
+  		</div>
+	</div>
+<script>
+  	window.onload = function () 
+  	{
+	    document.body.classList.add('loaded_hiding');
+	    window.setTimeout(function () 
+	    {
+	      	document.body.classList.add('loaded');
+	      	document.body.classList.remove('loaded_hiding');
+	      }, 500);
+  	}
+</script>
+	<header>
+		<nav>
+			<div class="logo">Андрей Муханов</div>
+			<div class="menu"><ul>
+				<li><a href="#About">Обо мне</a></li>
+				<li><a href="#Services">Услуги</a></li>
+				<li><a href="#Prise">Прайс</a></li>
+				<li><a href="#Reviews">Отзывы</a></li>
+				<li><a href="#Contacts">Контакты</a></li>
+			</ul></div>	
+		</nav>	
+	</header>
+	<main>
+		<section class="main">
+			<div class="title_conteiner">
+				<h1>Привет<br>Я Андрей Муханов</h1>
+				<h4>Фулл стек веб-разработчик</h4>
+				<input type="button" value="Обо мне" onclick='location="#About"'>
+				<input type="button" value="Мои работы"onclick='location="#My_work"'>
+			</div>
+		</section>
+		<section class="main_title2">
+			<div class="text2">
+				<div><a id="About"/></div>
+				<h4>Обо мне</h4>
+				<img class="avatar" src="C:\Users\andre\OneDrive\Desktop\NewProject\src\img\Avatar.png" alt="avatar" height="70px">
+				<h3>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Ut, voluptatibus provident quidem dignissimos, laboriosam eveniet incidunt iusto <br>doloremque obcaecati odio, beatae necessitatibus dolor quaerat reprehenderit at, eaque in nihil inventore?</</h3>
+				<br>
+				<h3>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Ut, voluptatibus provident quidem dignissimos, laboriosam eveniet incidunt iusto <br>doloremque obcaecati odio, beatae necessitatibus dolor quaerat reprehenderit at, eaque in nihil inventore?</h3>
+				<button class="download"><img src="https://i.ibb.co/mv5FrK4/1370023248.png" alt="Загрузка"><h6>Скачать резюме</h6></button>
+			</div>
+		</section>
+		<section class="str3">
+			<div class="title3">
+				<div><a id="Services"/></div>
+				<h2>ЧТО Я УМЕЮ</h2>
+			</div>
+			<div class="item_skills1">
+				<img src="https://i.ibb.co/WcyHRPt/image.png" alt="photo">
+				<h4>Веб-дизайн</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quidem quod atque mollitia natus nam harum a eligendi perferendis, provident</p>
+			</div>
+			<div class="item_skills2">
+				<img src="https://i.ibb.co/zr35DqR/image.png" alt="photo">
+				<h4>Разработка</h4>
+				<p>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Dolore, optio! Similique fuga rem magnam autem a incidunt. Maxime itaque vitae provident </p>
+			</div>
+			<div class="item_skills3">
+				<img src="https://i.ibb.co/w0h5Jyc/image.png" alt="photo">
+				<h4>CEO-Оптимизация</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum quia itaque est quidem sequi tempore, earum quam eligendi eius? Mole</p>
+			</div>
+			<div class="item_skills4">
+				<img src="https://i.ibb.co/HgZmkTk/image.png" alt="photo">
+				<h4>Маркетинг</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora laudantium mollitia a vitae dolorem quod unde ullam reiciendis molestias illo nostrum assumenda atque aliquam fugiat, nobis minima, quibusdam dolorum eos.</p>
+			</div>
+		</section>
+		<section class="str4">
+			<div class="title4">
+				<div><a id="My_work"/></div>
+				<h2>Кейсы</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem accusantium sunt ab a aut assumenda ratione officiis, unde aliquam ut quasi modi doloremque nostrum enim dolore iste molestias amet.</p>
+				<img src="https://i.ibb.co/BC7r6Nt/1617070032-58-p-oboi-izobrazhenie-prirodi-59.jpg" alt="Кейсы">
+			</div>
+			<div class="block">
+				<div class="client">
+					<h3>CLIENT:</h3>
+					<p>Какая-то компания</p>
+				</div>
+				<div class="name_project">
+					<h3>Название проекта:</h3>
+					<div class="text5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officia nihil animi hic suscipit optio asperiores harum quos ratione, facere ipsum molestias distinctio, odit magnam blanditiis? Provident soluta quod odit?</div>
+				</div>
+				<div class="website">
+					<h3>WEBSITE:</h3>
+					<p>Текст</p>
+				</div>
+			</div>
+			<button class="button2"><div>VISIT LIVE SITE</div></button>
+			<div><a id="Prise"/></div>
+			<div class="title5">
+				<h4 class="animate__animated animate__flip">Расчет стоимости</h4>
+				<form action="#">
+						<div class="text6">ТИП САЙТА</div>
+						<select name="list1" id="list" placeholder="Выберите пункт" >
+							<option value="Opt1">Выберите пункт...</option>
+							<option value="Opt2">Option2</option>
+						</select>
+						<p><b>ДИЗАЙН</b></p>
+						<select name="list2" id="list"placeholder="Выберите пункт">
+							<option value="Opt1">Выберите пункт...</option>
+							<option value="Opt2">Option2</option>
+						</select>
+						<p><b>АДАПТИВНОСТЬ</b></p>
+						<select name="list3" id="list"placeholder="Выберите пункт">
+							<option value="Opt1">Выберите пункт...</option>
+							<option value="Opt2">Option2</option>
+						</select>
+				</form>
+				<div class="text7">
+					<h2>Сроки</h2>
+					<h2>Стоимость</h2>
+					<h5>0</h5>
+					<h6>0</h6>
+				</div>
+			</div>
+		</section>
+		<section class="str5">
+			<div class="parallax">
+				<div class="title6 ">
+					<h2>НЕМНОГО СТАТИСТИКИ</h2>
+				</div>
+				<div class="happy_client">
+					<img src="https://i.ibb.co/Yy5khYM/image.png" alt="photo">
+					<p><b>0</b></p>
+					<h4 >СЧАСТЛИВЫХ КЛИЕНТОВ</h4>
+				</div>
+				<div class="Opening_hours">
+					<img src="https://i.ibb.co/qyn43fj/image.png" alt="photo">
+					<p><b>0</b></p>
+					<h4>ЧАСОВ РАБОТЫ</h4>
+				</div>
+				<div class="end_project ">
+					<img src="https://i.ibb.co/DwG9Psf/image.png" alt="photo">
+					<p><b>0</b></p>
+					<h4>ПРОЕКТОВ ЗАВЕРШЕНО</h4>
+				</div>
+				<div class="awards ">
+					<img src="https://i.ibb.co/FB4kWvZ/image.png" alt="photo">
+					<p><b>0</b></p>
+					<h4>НАГРАД ПОЛУЧИНО</h4>
+				</div>
+			</div>
+		</section>
+		<div><a id="Reviews"/></div>
+	 	<section class="container">
+	 		<h2>ОТЗЫВЫ</h2>
+	 		<div class="container1">
+			  	<img src="C:\Users\andre\OneDrive\Desktop\NewProject\src\img\4AlexeyYakovenko.png" alt="avatar" height="100px">
+			  	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quo nisi asperiores, dolorum libero, eaque voluptatem quaerat neque, dolores maiores quibusdam doloribus voluptatibus sit saepe sunt, ex quasi minus nam.</p>
+			  	<p><span>имя</span> г. Москва</p>
+			  	<form action="#">:
+			  		<input type="radio" name="1" id="">
+			  		<input type="radio" name="1" id="">
+			  		<input type="radio" name="1" id="">
+			  	</form>
+			 </div>
+		</section>
+		<div><a id="Contacts"/></div>
+		<section class="container3">
+				<h2>МОИ КОНТАКТЫ</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Odio, delectus!</p>
+				<div class="location">		
+					<img src="https://i.ibb.co/VWkw9yj/image.png" alt="photo" height="24px">
+					<h4>Москва<br>Lorem, ipsum, dolor.</h4>
+				</div>
+				<div class="Mail">
+					<img src="https://i.ibb.co/PCK4xPK/image.png" alt="photo">
+					<h4>andreymuch@mail.ru</h4>
+				</div>
+				<div class="namber">
+					<img src="https://i.ibb.co/X4t5dPf/image.png" alt="photo">
+					<h4>+7 968 784 83 94</h4>
+				</div>
+				<div class="footer">
+					<p><b>ОСТАВТЕ МНЕ СООБЩЕНИЕ</b></p>
+					<form action="#">
+						<input type="name" placeholder="Имя" class="nameint">
+						<input type="text" name="text_neme" placeholder="Email" class="mailint"><br>
+						<textarea name="NAME1" id="1" cols="100" rows="10"  placeholder="Сообщение" class="sms"></textarea><br>
+						<input type="submit"value="Отправить" class="buttonint">
+					</form>
+				</div>
+		</section>
+		<section class="map">
+	    <div class="container4">
+	        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577325.4387672195!2d36.82376369799353!3d55.58151819962924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1638195848731!5m2!1sru!2sru" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	    </div>
+		</section>
+ 	</main>
+</body>
+</html>
