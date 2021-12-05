@@ -663,3 +663,16 @@ main{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.buttonint:hover{
+	background: #6d7682;
+	color:white;
+}
+.buttonint :active{
+	transform: scale(1.1);
+}
+.container1 input:hover{
+	background:  #e88604;
+}
+.container1 input:active{
+	transform: scale(1.1);
+}
