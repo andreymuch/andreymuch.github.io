@@ -44,7 +44,7 @@ body{
 	}
 	to{
 		opacity: 1;
-		margin-left: 404px;
+		margin-left: 0px;
 	}
 }
 
@@ -107,22 +107,18 @@ body{
 .loaded .preloader {
   display: none;
 }
-
-
-
-
 p{letter-spacing: -1px}
 nav{
 	width: 100%;
 	height: 61px;
 	background: #344051;
 	position: fixed;
+	z-index: 10;
 }
 .logo{
 	color: #fff;
-	font-size: 28px;
+	font-size: 25px;
 	line-height: 61px;
-	padding-left:388px;
 	float: left;
 	animation: comming 2s ease;
 }
@@ -132,14 +128,13 @@ main{
 }
 .menu{
 	float: left;
-	padding-left: 432px;
 }
 .menu li {
 	float: left;
 	line-height: 61px;
 	color: #fff;
 	margin-right: 40px;
-	font-size:16px;
+	font-size:14px;
 	text-transform: uppercase;
 	animation: topshift 0.4s ease forwards;
 	opacity:0;
@@ -149,6 +144,7 @@ main{
 	color:white;
 	transform: scale(1);
 	display:inline-block;
+	text-decoration: none;
 }
 .menu li a:visited{
 	color:white;
@@ -167,14 +163,14 @@ main{
 }
 .title_conteiner{
 	float: left;
-	margin: 432px 0px 0px 404px;
 	color: #2c384a;
 	text-align: center;
+	width: 100%;
 	opacity: 0;
 	animation:display1 3s forwards;
 }
 .title_conteiner h1{
-	font-size: 60px;
+	font-size: 72px;
 	font-weight:bold;
 	letter-spacing: -3px;
 }
@@ -206,14 +202,14 @@ main{
 
 .main_title2{
 	width: 100%;
-	height: 715px;
+	height: 730px;
 	background: #fcfdfd;
 }
 .text2{
 	text-align: center;
 }
 .text2 h4{
-	padding-top: 108px ;
+	padding-top: 60px ;
 	color: #263244;
 	font-size: 35px;
 	font-weight:bold;
@@ -224,9 +220,9 @@ main{
 	animation: comming 2s ease;
 }
 .avatar{
-	margin:62px; 
+	margin:40px; 
 	height: 200px;
-	padding:31px;
+	padding:27px;
 	animation: comming 2s ease;
 }
 .text2 p{
@@ -237,14 +233,18 @@ main{
 .download{
 	transition: all 0.2s;
 	transform: scale(1);
-	margin:37px;
 	border:3px solid;
 	border-radius: 5px;
-	padding:13px ;
+	height:59px;
 	color:#6f707e;
 }
+.download h6{
+	color:#6f707e
+	font-size: 16px;
+}
+	
 .download img{
-	height:25px
+	height:19px
 }
 .download:hover{
 	background:#dee1e4;
@@ -266,7 +266,7 @@ main{
 }
 .title3 h2{
 	text-align: center;
-	padding-top: 107px ;
+	padding-top: 80px ;
 	color: #263244;
 	font-size: 35px;
 	font-weight:bold;
@@ -284,10 +284,11 @@ main{
 	text-align: center;
 }
 .str3 img{
-	padding-left:78px;
+	display: block;
+    margin: 0 auto; 
 }
 .str3 p{
-	padding-top:20px; 
+	padding-top:10px; 
 	font-size: 14px;
 	letter-spacing:0px;
 	color: #515a69;
@@ -297,7 +298,7 @@ main{
 	border: 0px solid #000;
 	max-width: 213px;
 	height:158px;
-	margin:100px 0px 0px 417px;
+	margin-top: 100px;
 	animation: comming 2.4s ease;
 }
 
@@ -305,26 +306,26 @@ main{
 	border: 0px solid #000;
 	max-width: 213px;
 	height:158px;
-	margin:-158px 0px 0px 712px;
+	margin-top: 100px;
 	animation: comming 3.2s ease;
 }
 .item_skills3{
 	border: 0px solid #000;
 	max-width: 213px;
 	height:158px;
-	margin:-158px 0px 0px 1011px;
+	margin-top: 100px;
 	animation: comming 4s ease;
 }
 .item_skills4{
 	border: 0px solid #000;
 	max-width: 213px;
 	height:158px;
-	margin:-158px 0px 0px 1306px;
+	margin-top: 100px;
 	animation: comming 4.8s ease;
 }
 .str4{
 	width: 100%;
-	height: 2000px;
+	height: 2150px;
 	background: #fff;
 }
 .title4 h2{
@@ -346,8 +347,7 @@ main{
 }
 .str4 img{
 	width: 1068px;
-	height:590px;
-	margin-left:400px;  
+	height:auto;  
 }
 .str4 h3{
 	color: #384354;
@@ -358,7 +358,7 @@ main{
 }
 .str4 p{
 	padding-top:11px; 
-	font-size:12px;
+	font-size:14px;
 	letter-spacing:0px;
 	color: #3f495a;
 	font-weight: 600;
@@ -366,15 +366,12 @@ main{
 .client{
 	border: 0px solid #000;
 	width:285px;
-	height:45px;
-	margin-left:388px;
-	margin-top:42px;
+	height:68px;
 }
 .name_project{
 	border: 0px solid #000;
 	width:850px;
 	max-height:100px;
-	margin:-45px 0px 0px 673px;
 }
 .text5 {
 	padding-top:13px; 
@@ -387,11 +384,9 @@ main{
 .website{
 	border: 0px solid #000;
 	max-width:285px;
-	max-height:45px;
-	margin:-15px 0px 0px 388px;
+	max-height:68px;
 }
 .button2 {
-	margin:23px 0px 0px 388px;
 	height:44px;
 	width:201px;
 	color: #63b5ae;
@@ -413,32 +408,30 @@ main{
 .button2:active{
 	transform: scale(1.1);
 }
+.title5{
+	background:#fff;
+	box-shadow: 0px 0px 10px black; 
+	height:760px;
+	width:980px;
+	margin:170px auto;
+}
 .title5 h4{
 	color:#1c2534;
-	margin-top:201px;
+	margin-top:200px;
 	font-size:37px;
 	font-weight:bold;
 	text-align: center;
 	letter-spacing:-1px;
+	padding-top: 40px;
 }
 .title5 p{
 	color:#1c2534;
 	font-size:20px;
-	font-weight:bold;
+	font-weight: 400;
 	letter-spacing:-1px;
-	margin:49px 0px 0px 498px;
-}
-.text6 {
-	margin:60px 0px 0px 498px;
-	color:#1c2534;
-	font-size:20px;
-	font-weight:bold;
-	letter-spacing:-1px;
+	padding-top: 45px;
 }
 .title5 select{
-	margin:22px 0px 0px 498px ;
-	width:891px;
-	height:57px;
 	background: #eeeeee;
 }
 .text7{
@@ -446,26 +439,26 @@ main{
 	max-width:891px;
 	max-height: 74px;
 	color: #d1d1d1;
-	margin: 36px 0px 0px 498px
+	margin-top: 60px;
 }
 .text7 h2{
-	padding-top:20px;
+	padding-top:10px;
 	font-size:15px;
 	letter-spacing:0px;
 	color:#1c2534;
 	font-weight: 600;
+	float:left;
+	width: 96%;
 }
 .text7 h5{ 
 	font-size:17px;
 	color:#1c2534;
 	font-weight: 600;
-	margin:-50px 0px 0px 877px;
 }
 .text7 h6{ 
 	font-size:17px;
 	color:#1c2534;
 	font-weight: 600;
-	margin:17px 0px 0px 877px;
 }
 
 .title6 h2{
@@ -488,7 +481,8 @@ main{
 	text-align: center;
 }
 .str5 img{
-	padding-left:78px;
+	display: block;
+    margin: 0 auto; 
 }
 .str5 p{
 	margin-top:20px;
@@ -501,7 +495,7 @@ main{
 	border:0px solid #000;
 	max-width:213px;
 	height:160px;
-	margin:100px 0px 0px 417px;
+	margin-top:100px; 
 
 }
 
@@ -509,26 +503,26 @@ main{
 	border:0px solid #000;
 	max-width: 213px;
 	height:160px;
-	margin:-158px 0px 0px 712px;
-}
+	margin-top:100px;
+	}
 .end_project{
 	border: 0px solid #000;
 	max-width:213px;
 	height:160px;
-	margin:-158px 0px 0px 1011px;
+	margin-top:100px;
 }
 .awards{
 	border: 0px solid #000;
 	max-width: 213px;
 	height:160px;
-	margin:-158px 0px 0px 1306px;
+	margin-top:100px;
 }
-.container {
+.conteiner {
 	background:#fff; 
 	height:590px;
 	width:100%;
 }
-.container h2{
+.conteiner h2{
 	text-align: center;
 	padding-top: 107px ;
 	color: #243042;
@@ -539,13 +533,13 @@ main{
 	text-decoration: underline;
 	text-decoration-color: #d17700;
 }
-.container1 {
+.conteiner1 {
 	border:0px solid;
 	max-height:278px;
 	max-width: 690px;
 	margin:95px auto;	 
 }
-.container p{
+.conteiner p{
 	font-size: 18px;
 	text-align: center;
 	padding-top:11px; 
@@ -554,32 +548,34 @@ main{
 	color: #243042;
 	font-weight: 600;
 }
-.container img{
-	padding-left:293px;
+.conteiner img{
+	display: block;
+    margin: 0 auto; 
 }
-.container form{
-	margin:50px 0px 0px 315px; 
+.conteiner form{
+	text-align: center; 
 }
-.container input{
+.conteiner input{
 	background:#c96500;
 }
-.container3 {
+.conteiner3 {
 	background: url(../img/bg3.jpg)no-repeat;
 	height: 808px;
 	width:100%
 }
-.container3 p{
+.conteiner3 p{
 	color:#fff;
 	text-align: center;
-	margin-top:70px;
+	margin-top:50px;
 	letter-spacing:0px;
 }
-.container3 h4{
+.conteiner3 h4{
 	color:#fff;
+	font-size: 16px;
 	padding-top:8px;
 	text-align: center;
 }
-.container3 h2{
+.conteiner3 h2{
 	text-align: center;
 	padding-top: 107px ;
 	color: #fff;
@@ -594,54 +590,36 @@ main{
 	border: 0px solid;
 	color: #fff;
 	max-height:70px;
-	max-width:155px;
-	margin:48px 0px 0px 650px;
+	width:155px;
 }
 .Mail {
 	border: 0px solid;
 	color: #fff;
 	max-height:70px;
-	max-width:155px;
-	margin:-60px 0px 0px 850px
+	max-width:160px;
 }
 .namber {
 	border: 0px solid;
 	color: #fff;
 	max-height:70px;
-	max-width:155px;
-	margin:-46px 0px 0px 1050px;
+	width:155px;
 }
-.container3 img{
-	padding-left:68px;
-}
+.conteiner3 img{
+	display: block;
+    margin: 0 auto; 
+	}
 .footer p{
 	text-align: center;
 	color: #fff;
 	font-size: 32px;
-	font-weight:bold;
 	text-transform: uppercase;
 	letter-spacing:-1px;
 }
-.nameint{
-	height:34px;
-	width: 354px;
-	margin-left: 560px;
-	margin-top:45px;
-}
-.mailint{
-	height:34px;
-	width: 354px;
-	margin-left:29px;
-	margin-top:45px;
-}
-.sms {
-	height:95px;
-	width:740px;
-	margin-top:14px;
-	margin-left: 560px;
+form{
+	text-align: center;
 }
 .buttonint{
-	margin:27px 0px 0px 880px;
+	margin-top:18px;
 	border:2px #fff solid;
 	border-radius:5px;
 	height: 47px;
@@ -670,9 +648,109 @@ main{
 .buttonint :active{
 	transform: scale(1.1);
 }
-.container1 input:hover{
+.conteiner1 input:hover{
 	background:  #e88604;
 }
-.container1 input:active{
+.conteiner1 input:active{
 	transform: scale(1.1);
+}
+.white-btn:visited{
+	color: #fff;
+}
+@media (max-width: 991px){
+	.title_conteiner, .title_conteiner h4, .title_conteiner input{
+		color: white;
+		position: relative;
+		z-index: 3;
+	}
+	.title_conteiner input{
+	border: 2px solid #fff;
+	}
+	.main{
+		position: relative;
+	}
+	.main:after{
+		content:"";
+		bottom:0;
+		top:0;
+		left: 0;
+		right: 0;
+		position: absolute;
+		background: rgba(0,0,0,0.4);
+	}
+	.title5{ 
+	width:auto;
+	}
+}
+@media (max-width: 768px){
+	.str3{
+		background:url(../img/bg6.jpg) repeat ;
+		width:100%;
+		height:780px;
+	}
+	.parallax{
+	/* Используемое изображение */
+	background-image:url("../img/bg6.jpg");
+	height:780px;
+	width:100%;
+	}
+	.str4{
+	width: 100%;
+	height: 1950px;
+	background: #fff;
+	}
+}
+@media (max-width: 1230px){
+	.name_project{
+	width:auto;
+	height: auto;
+	}
+}
+@media(max-width: 491px){
+	.text5 {
+	padding-top:5px; 
+	font-size:12px;
+	}
+	.client{
+	width:auto;
+	height:auto;
+	}
+	.website{
+	width:auto;
+	height:auto;
+	}
+	.main_title2{
+	width: 100%;
+	height: 755px;
+	}
+	.half-str4 p{
+	padding-top:5px; 
+	font-size:12px;
+	}
+}
+.button3 {
+	margin-top: 40px;
+	height:45px;
+	width:201px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	color: #63b5ae;
+	border-radius: 5px;
+	border:1px solid;
+	background:#63b5ae;
+}
+.button3 div{
+	color:#fff;
+	font-size:16px;	
+}
+.button3:hover{
+	border:#d17700 solid;
+	border-radius: 5px;
+}
+.button3:active{
+	transform: scale(1.1);
+}
+textarea{
+	height: 90px;
 }

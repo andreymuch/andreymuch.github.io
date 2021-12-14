@@ -8,7 +8,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta property="og:title" content="Это моя первая страница...">
 	<title>Андрей Муханов- Веб-разработчик</title>
-	<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 </head>
@@ -32,110 +33,159 @@
 </script>
 	<header>
 		<nav>
-			<div class="logo">Андрей Муханов</div>
-			<div class="menu"><ul>
-				<li><a href="#About">Обо мне</a></li>
-				<li><a href="#Services">Услуги</a></li>
-				<li><a href="#Prise">Прайс</a></li>
-				<li><a href="#Reviews">Отзывы</a></li>
-				<li><a href="#Contacts">Контакты</a></li>
-			</ul></div>	
+			<div class="container">
+				<div class="row">
+					<div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Андрей Муханов</div></div>
+					<div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu">
+						<ul>
+						<li><a href="#About">Обо мне</a></li>
+						<li><a href="#Services">Услуги</a></li>
+						<li><a href="#Prise">Прайс</a></li>
+						<li><a href="#Reviews">Отзывы</a></li>
+						<li><a href="#Contacts">Контакты</a></li>
+						</ul>
+					</div></div>
+					<div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+						<div class="dropdown">
+							  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+							    Ссылка выпадающего списка
+							  </a>
+
+							  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<li><a class="dropdown-item" href="#About">Обо мне</a></li>
+								<li><a class="dropdown-item" href="#Services">Услуги</a></li>
+								<li><a class="dropdown-item" href="#Prise">Прайс</a></li>
+								<li><a class="dropdown-item" href="#Reviews">Отзывы</a></li>
+								<li><a class="dropdown-item" href="#Contacts">Контакты</a></li>
+							  </ul>
+						</div>
+					</div>
+				</div>
+			</div>	
 		</nav>	
 	</header>
 	<main>
 		<section class="main">
-			<div class="title_conteiner">
+			<div class="container h-100"><div class="row align-items-center h-100"><div class="col-lg-6 mt-5 py-5"><div class="title_conteiner mt-5">
 				<h1>Привет<br>Я Андрей Муханов</h1>
 				<h4>Фулл стек веб-разработчик</h4>
 				<input type="button" value="Обо мне" onclick='location="#About"'>
 				<input type="button" value="Мои работы"onclick='location="#My_work"'>
-			</div>
+			</div></div></div></div>
 		</section>
 		<section class="main_title2">
-			<div class="text2">
-				<div><a id="About"/></div>
+			<div><a id="About"/></div>
+			<div class="container"><div class="row"><div class="col-8 w-100"><div class="text2">
 				<h4>Обо мне</h4>
 				<img class="avatar" src="C:\Users\andre\OneDrive\Desktop\NewProject\src\img\Avatar.png" alt="avatar" height="70px">
-				<h3>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Ut, voluptatibus provident quidem dignissimos, laboriosam eveniet incidunt iusto <br>doloremque obcaecati odio, beatae necessitatibus dolor quaerat reprehenderit at, eaque in nihil inventore?</</h3>
+				<h3>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Ut, voluptatibus provident quidem dignissimos, laboriosam eveniet incidunt iusto <br>doloremque obcaecati odio, beatae necessitatibus dolor quaerat reprehenderit at.</</h3>
 				<br>
-				<h3>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Ut, voluptatibus provident quidem dignissimos, laboriosam eveniet incidunt iusto <br>doloremque obcaecati odio, beatae necessitatibus dolor quaerat reprehenderit at, eaque in nihil inventore?</h3>
+				<h3>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Ut, voluptatibus provident quidem dignissimos, laboriosam eveniet incidunt iusto <br>doloremque obcaecati odio, beatae necessitatibus dolor quaerat.</h3>
 				<button class="download"><img src="https://i.ibb.co/mv5FrK4/1370023248.png" alt="Загрузка"><h6>Скачать резюме</h6></button>
-			</div>
+			</div></div></div></div>
 		</section>
 		<section class="str3">
 			<div class="title3">
 				<div><a id="Services"/></div>
 				<h2>ЧТО Я УМЕЮ</h2>
 			</div>
-			<div class="item_skills1">
+			<div class="container"><div class="row align-items-center"><div class="col-6 col-md-3"><div class="item_skills1">
 				<img src="https://i.ibb.co/WcyHRPt/image.png" alt="photo">
 				<h4>Веб-дизайн</h4>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quidem quod atque mollitia natus nam harum a eligendi perferendis, provident</p>
-			</div>
-			<div class="item_skills2">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quidem quod atque mollitia natus nam harum a eligendi perferendis</p>
+			</div></div>
+			<div class="col-6 col-md-3"><div class="item_skills2">
 				<img src="https://i.ibb.co/zr35DqR/image.png" alt="photo">
 				<h4>Разработка</h4>
-				<p>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Dolore, optio! Similique fuga rem magnam autem a incidunt. Maxime itaque vitae provident </p>
-			</div>
-			<div class="item_skills3">
+				<p>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Dolore, optio! Similique fuga rem magnam autem a incidunt </p>
+			</div></div>
+			<div class="col-6 col-md-3"><div class="item_skills3">
 				<img src="https://i.ibb.co/w0h5Jyc/image.png" alt="photo">
 				<h4>CEO-Оптимизация</h4>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum quia itaque est quidem sequi tempore, earum quam eligendi eius? Mole</p>
-			</div>
-			<div class="item_skills4">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum quia itaque est quidem sequi tempore, earum </p>
+			</div></div>
+			<div class="col-6 col-md-3"><div class="item_skills4">
 				<img src="https://i.ibb.co/HgZmkTk/image.png" alt="photo">
 				<h4>Маркетинг</h4>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora laudantium mollitia a vitae dolorem quod unde ullam reiciendis molestias illo nostrum assumenda atque aliquam fugiat, nobis minima, quibusdam dolorum eos.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora laudantium mollitia a vitae dolorem quod unde ullam </p>
+				</div>
 			</div>
+			</div>
+		</div>
 		</section>
 		<section class="str4">
+		<div class="half-str4">
 			<div class="title4">
 				<div><a id="My_work"/></div>
-				<h2>Кейсы</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem accusantium sunt ab a aut assumenda ratione officiis, unde aliquam ut quasi modi doloremque nostrum enim dolore iste molestias amet.</p>
-				<img src="https://i.ibb.co/BC7r6Nt/1617070032-58-p-oboi-izobrazhenie-prirodi-59.jpg" alt="Кейсы">
+					<h2>Кейсы</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem accusantium sunt ab a aut assumenda ratione officiis, unde aliquam ut quasi modi doloremque nostrum enim dolore iste molestias amet.</p>
 			</div>
-			<div class="block">
-				<div class="client">
-					<h3>CLIENT:</h3>
-					<p>Какая-то компания</p>
-				</div>
-				<div class="name_project">
-					<h3>Название проекта:</h3>
-					<div class="text5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officia nihil animi hic suscipit optio asperiores harum quos ratione, facere ipsum molestias distinctio, odit magnam blanditiis? Provident soluta quod odit?</div>
-				</div>
-				<div class="website">
-					<h3>WEBSITE:</h3>
-					<p>Текст</p>
+			<img src="https://i.ibb.co/BC7r6Nt/1617070032-58-p-oboi-izobrazhenie-prirodi-59.jpg" alt="Кейсы" class="img-fluid rounded mx-auto d-block">
+				<div class="cantainer">
+					<div class="row justify-content-center offset-xxl-2 offset-lg-1">
+							<div class="col-2 ">
+								<div class="client">
+									<h3>CLIENT:</h3>
+									<p>Какая-то компания</p>
+								</div>
+							</div>
+							<div class="col-9  offset-1 ">
+								<div class="name_project">
+									<h3>Название проекта:</h3>
+									<div class="text5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officia nihil animi hic suscipit optio asperiores harum quos ratione, facere ipsum molestias distinctio, odit magnam blanditiis?</div>
+								</div>
+							</div>
+							<div class="col-12 ">
+								<div class="website">
+									<h3>WEBSITE:</h3>
+									<p>Текст</p>
+								</div>
+							</div>
+							<div class="col-12">
+								<button class="button2"><div>VISIT LIVE SITE</div></button>
+							</div>
+					</div>
 				</div>
 			</div>
-			<button class="button2"><div>VISIT LIVE SITE</div></button>
 			<div><a id="Prise"/></div>
 			<div class="title5">
 				<h4 class="animate__animated animate__flip">Расчет стоимости</h4>
-				<form action="#">
-						<div class="text6">ТИП САЙТА</div>
-						<select name="list1" id="list" placeholder="Выберите пункт" >
-							<option value="Opt1">Выберите пункт...</option>
-							<option value="Opt2">Option2</option>
-						</select>
-						<p><b>ДИЗАЙН</b></p>
-						<select name="list2" id="list"placeholder="Выберите пункт">
-							<option value="Opt1">Выберите пункт...</option>
-							<option value="Opt2">Option2</option>
-						</select>
-						<p><b>АДАПТИВНОСТЬ</b></p>
-						<select name="list3" id="list"placeholder="Выберите пункт">
-							<option value="Opt1">Выберите пункт...</option>
-							<option value="Opt2">Option2</option>
-						</select>
-				</form>
-				<div class="text7">
-					<h2>Сроки</h2>
-					<h2>Стоимость</h2>
-					<h5>0</h5>
-					<h6>0</h6>
-				</div>
+					<form action="#">
+						<div class="container px-5">
+							<div class="row justify-content-start">
+									<div class="col-12">
+										<p><b>ТИП САЙТА</b></p>
+										<select class="form-select form-select-lg mb-3" name="list1" id="list" placeholder="Выберите пункт" >
+											<option value="Opt1">Выберите пункт...</option>
+											<option value="Opt2">Option2</option>
+										</select>
+									</div>
+									<div class="col-12">
+										<p><b>ДИЗАЙН</b></p>
+										<select class="form-select form-select-lg mb-3" name="list2" id="list"placeholder="Выберите пункт">
+											<option value="Opt1">Выберите пункт...</option>
+											<option value="Opt2">Option2</option>
+										</select>
+									</div>
+									<div class="col-12">
+										<p><b>АДАПТИВНОСТЬ</b></p>
+										<select class="form-select form-select-lg mb-3" name="list3" id="list"placeholder="Выберите пункт">
+											<option value="Opt1">Выберите пункт...</option>
+											<option value="Opt2">Option2</option>
+										</select>
+									</div>	
+									<div class="col-12">
+										<div class="text7">
+											<h2>Сроки</h2>
+											<h2>Стоимость</h2>
+											<h5>0</h5>
+											<h6>0</h6>
+										</div>
+									</div>
+									<div><button class="button3"><div>Оставте заявку</div></button></div>
+							</div>
+						</div>
+					</form>
 			</div>
 		</section>
 		<section class="str5">
@@ -143,36 +193,48 @@
 				<div class="title6 ">
 					<h2>НЕМНОГО СТАТИСТИКИ</h2>
 				</div>
-				<div class="happy_client">
-					<img src="https://i.ibb.co/Yy5khYM/image.png" alt="photo">
-					<p><b>0</b></p>
-					<h4 >СЧАСТЛИВЫХ КЛИЕНТОВ</h4>
-				</div>
-				<div class="Opening_hours">
-					<img src="https://i.ibb.co/qyn43fj/image.png" alt="photo">
-					<p><b>0</b></p>
-					<h4>ЧАСОВ РАБОТЫ</h4>
-				</div>
-				<div class="end_project ">
-					<img src="https://i.ibb.co/DwG9Psf/image.png" alt="photo">
-					<p><b>0</b></p>
-					<h4>ПРОЕКТОВ ЗАВЕРШЕНО</h4>
-				</div>
-				<div class="awards ">
-					<img src="https://i.ibb.co/FB4kWvZ/image.png" alt="photo">
-					<p><b>0</b></p>
-					<h4>НАГРАД ПОЛУЧИНО</h4>
+				<div class="container">
+					<div class="row">
+						<div class="col-6 col-md-3">
+							<div class="happy_client">
+								<img src="https://i.ibb.co/Yy5khYM/image.png" alt="photo">
+								<p><b>0</b></p>
+								<h4 >СЧАСТЛИВЫХ КЛИЕНТОВ</h4>
+							</div>
+						</div>
+						<div class="col-6 col-md-3">
+							<div class="Opening_hours">
+								<img src="https://i.ibb.co/qyn43fj/image.png" alt="photo">
+								<p><b>0</b></p>
+								<h4>ЧАСОВ РАБОТЫ</h4>
+							</div>
+						</div>
+						<div class="col-6 col-md-3">
+							<div class="end_project">
+								<img src="https://i.ibb.co/DwG9Psf/image.png" alt="photo">
+								<p><b>0</b></p>
+								<h4>ПРОЕКТОВ ЗАВЕРШЕНО</h4>
+							</div>
+						</div>	
+						<div class="col-6 col-md-3">
+							<div class="awards">
+								<img src="https://i.ibb.co/FB4kWvZ/image.png" alt="photo">
+								<p><b>0</b></p>
+								<h4>НАГРАД ПОЛУЧИНО</h4>
+							</div>
+						</div>		
+					</div>
 				</div>
 			</div>
 		</section>
 		<div><a id="Reviews"/></div>
-	 	<section class="container">
+	 	<section class="conteiner">
 	 		<h2>ОТЗЫВЫ</h2>
-	 		<div class="container1">
+	 		<div class="conteiner1">
 			  	<img src="C:\Users\andre\OneDrive\Desktop\NewProject\src\img\4AlexeyYakovenko.png" alt="avatar" height="100px">
 			  	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quo nisi asperiores, dolorum libero, eaque voluptatem quaerat neque, dolores maiores quibusdam doloribus voluptatibus sit saepe sunt, ex quasi minus nam.</p>
 			  	<p><span>имя</span> г. Москва</p>
-			  	<form action="#">:
+			  	<form action="#">
 			  		<input type="radio" name="1" id="">
 			  		<input type="radio" name="1" id="">
 			  		<input type="radio" name="1" id="">
@@ -180,28 +242,42 @@
 			 </div>
 		</section>
 		<div><a id="Contacts"/></div>
-		<section class="container3">
+		<section class="conteiner3">
 				<h2>МОИ КОНТАКТЫ</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Odio, delectus!</p>
-				<div class="location">		
-					<img src="https://i.ibb.co/VWkw9yj/image.png" alt="photo" height="24px">
-					<h4>Москва<br>Lorem, ipsum, dolor.</h4>
-				</div>
-				<div class="Mail">
-					<img src="https://i.ibb.co/PCK4xPK/image.png" alt="photo">
-					<h4>andreymuch@mail.ru</h4>
-				</div>
-				<div class="namber">
-					<img src="https://i.ibb.co/X4t5dPf/image.png" alt="photo">
-					<h4>+7 968 784 83 94</h4>
-				</div>
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-12  col-lg-1 offset-lg-3 offset-4">
+						<div class="location">		
+							<img src="https://i.ibb.co/VWkw9yj/image.png" alt="photo" height="24px">
+							<h4>Москва<br>Lorem, ipsum, dolor.</h4>
+						</div>
+					</div>
+					<div class="col-12 col-lg-2 offset-lg-1 offset-4">
+						<div class="Mail">
+							<img src="https://i.ibb.co/PCK4xPK/image.png" alt="photo">
+							<h4>andreymuch@mail.ru</h4>
+						</div>
+					</div>
+					<div class="col-12 col-lg-1 offset-lg-0 offset-4">
+						<div class="namber">
+							<img src="https://i.ibb.co/X4t5dPf/image.png" alt="photo">
+							<h4>+7 968 784 83 94</h4>
+						</div>
+					</div>
+					</div>
+			</div>
 				<div class="footer">
 					<p><b>ОСТАВТЕ МНЕ СООБЩЕНИЕ</b></p>
 					<form action="#">
-						<input type="name" placeholder="Имя" class="nameint">
-						<input type="text" name="text_neme" placeholder="Email" class="mailint"><br>
-						<textarea name="NAME1" id="1" cols="100" rows="10"  placeholder="Сообщение" class="sms"></textarea><br>
-						<input type="submit"value="Отправить" class="buttonint">
+						<div class="container"><div class="form-row">
+						<div class="input-group">
+							<div class="col-4 offset-2"><input type="name" placeholder="Имя" class="form-control"></div>
+							<div class="col-4 offset-6"><input type="text" name="text_neme" placeholder="Email" class="form-control"></div>
+						</div><br>
+						<div class="col-8 offset-2"><textarea name="NAME1" id="1" cols="100" rows="10"  placeholder="Сообщение" class="form-control" height="95px"></textarea></div>
+						<input type="submit" value="Отправить" class="buttonint">
+						</div></div>
 					</form>
 				</div>
 		</section>
@@ -211,5 +287,6 @@
 	    </div>
 		</section>
  	</main>
+ 	<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
