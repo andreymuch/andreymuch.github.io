@@ -430,6 +430,7 @@ main{
 	font-weight: 400;
 	letter-spacing:-1px;
 	padding-top: 45px;
+	text-align: left;
 }
 .title5 select{
 	background: #eeeeee;
@@ -449,6 +450,7 @@ main{
 	font-weight: 600;
 	float:left;
 	width: 96%;
+	text-align: left;
 }
 .text7 h5{ 
 	font-size:17px;
@@ -733,8 +735,6 @@ form{
 	height:45px;
 	width:201px;
 	position: relative;
-	left: 50%;
-	transform: translate(-50%, 0);
 	color: #63b5ae;
 	border-radius: 5px;
 	border:1px solid;

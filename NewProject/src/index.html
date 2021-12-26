@@ -20,17 +20,7 @@
     		<div class="preloader__item"></div>
   		</div>
 	</div>
-<script>
-  	window.onload = function () 
-  	{
-	    document.body.classList.add('loaded_hiding');
-	    window.setTimeout(function () 
-	    {
-	      	document.body.classList.add('loaded');
-	      	document.body.classList.remove('loaded_hiding');
-	      }, 500);
-  	}
-</script>
+
 	<header>
 		<nav>
 			<div class="container">
@@ -152,7 +142,7 @@
 				<h4 class="animate__animated animate__flip">Расчет стоимости</h4>
 					<form action="#">
 						<div class="container px-5">
-							<div class="row justify-content-start">
+							<div class="row ">
 									<div class="col-12">
 										<p><b>ТИП САЙТА</b></p>
 										<select class="form-select form-select-lg mb-3" name="list1" id="list" placeholder="Выберите пункт" >
@@ -287,6 +277,19 @@
 	    </div>
 		</section>
  	</main>
+
  	<script src="js/bootstrap.bundle.min.js"></script>
+ 	<script src="js/myScript.js"></script>
+ 	<script>
+  	window.onload = function () 
+  	{
+	    document.body.classList.add('loaded_hiding');
+	    window.setTimeout(function () 
+	    {
+	      	document.body.classList.add('loaded');
+	      	document.body.classList.remove('loaded_hiding');
+	      }, 500);
+  	}
+</script>
 </body>
 </html>
